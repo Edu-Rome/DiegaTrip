@@ -1,0 +1,268 @@
+*{
+	text-decoration: none;
+
+	list-style: none;
+}
+
+body{
+
+	background: white;
+	font-size:20px;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+}
+
+h1{
+	color:#9999B4;
+	text-shadow: 1px  #999;
+	text-align: center;
+
+
+}
+
+h2{
+	text-align: center;
+}
+
+
+
+}
+nav{
+	margin: 50px;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+ #menu{
+ 	background: #333333;
+ 	
+
+
+}
+
+#menu ul li {
+	display: block;
+	float: left;
+	padding: 15px;
+	margin-left: 8%;
+
+}
+
+#menu ul li a{
+	color:white;
+}
+
+#menu ul li:hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+#menu ul li:hover a{
+	color:white;
+
+}
+
+
+p{
+	text-align: center;
+}
+
+a{
+	text-align: center;
+	display: inline-block;
+	widows: 100%;
+}
+
+table{
+	margin: auto;
+	height: 150px;
+	width:  700px;
+	border: 150px;
+
+}
+
+footer{
+	background-attachment: black;
+	font-size: 15px;
+	float: none;
+	clear: both;
+
+}
+
+#video{
+	
+	margin-top: 30px;
+	display:flex;
+	padding: 5px;
+	flex-wrap: wrap;
+}
+
+.caja{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	padding: 20px;
+	margin: 34px;
+	animation-name: videito; 
+	animation-duration: 2s;
+	animation-iteration-count: 4s;
+
+
+}
+
+@keyframes videito{
+	0%{
+		transform: rotate(0deg);
+		border-radius: 999px;
+
+	}
+	50%{
+		transform: rotate(360deg);
+		border-radius: 999px;
+	
+
+	}
+
+	100%{
+		transform: rotate(360deg);
+		border-radius: 999px;
+	}
+
+
+}
+
+.caja img{
+	width: 500px;
+	height: 300px; 
+	border-radius: 999px;
+}
+.caja a{
+	background:#333333;
+	color:white; 
+	cursor: pointer;
+	border-radius: 1200px
+
+}
+
+.caja a:hover{
+	background:black;
+	transform: scale(1.70);
+	;
+}
+
+.caja img:hover{
+	transform: scale(1.50);
+	
+
+}
+
+.foto{
+
+max-width: 40%;
+float: left;
+margin-top:40px;
+display: inline-block;
+
+
+	
+}
+
+
+
+.trip{
+	width: 650px;
+	height:330px;
+	float: right; 
+	padding: 30px;
+	border: solid white;
+	margin: right 30px;
+}
+
+
+
+.fama p{
+	width: 650px;
+	height:600px;
+	float: right; 
+	padding: 30px;
+	border: solid white;
+}
+
+
+.fiesta{
+	
+	width: 70%;
+	margin: auto;
+	display: block;
+	padding-top: 40px;
+}
+
+
+.layout{
+	display: grid;
+	grid-template-columns: 50% 25% 25%;
+	grid-template-rows: 40% 60%
+	border:3px solid white;
+	grid-gap: 7px;
+	padding: 10px;
+}
+
+
+.fecha1{
+	grid-column-start: 1;
+	grid-column-end: 4;
+
+}
+
+.fecha1 img{
+	width: 100%;
+}
+
+.fecha2{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+
+.fecha2 img{
+	height: 100%;
+	width: 100%;
+	
+
+}
+
+.fecha3{
+
+}
+
+.fecha3 table{
+	border: 2px solid black;
+	height: 100%;
+	width: 610px;
+
+}
+
+
+.contactame img{
+	width: 100%;
+	margin: 10px;
+}
+
+
+.col-6{
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
