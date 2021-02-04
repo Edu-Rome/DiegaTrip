@@ -1,9 +1,61 @@
-h1 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: black; }
-  h1 span {
-    display: block;
-    color: red; }
-  h1 + p {
-    margin-top: 3rem; }
+* {
+  text-decoration: none;
+  list-style: none; }
+
+body {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-style: italic; }
+  body h1 {
+    color: #9999B4;
+    text-shadow: 1px  #999;
+    text-align: center; }
+  body h2 {
+    text-align: center; }
+  body p {
+    text-align: center; }
+  body a {
+    text-align: center;
+    display: inline-block;
+    widows: 100%; }
+  body footer {
+    background-attachment: black;
+    font-size: 15px;
+    float: none;
+    clear: both; }
+
+.trip {
+  width: 650px;
+  height: 330px;
+  float: right;
+  padding: 30px;
+  border: solid white;
+  margin: right 30px; }
+
+.fama p {
+  width: 650px;
+  height: 600px;
+  float: right;
+  padding: 30px;
+  border: solid white; }
+
+.foto {
+  max-width: 40%;
+  float: left;
+  margin-top: 40px;
+  display: inline-block; }
+
+#menu {
+  display: inline-block;
+  color: #9999B4;
+  font-size: 13px;
+  flex-wrap: wrap; }
+  #menu ul li a {
+    color: black;
+    justify-content: center; }
+  #menu ul li {
+    /*display: inline-block;*/
+    display: inline;
+    float: left;
+    padding: 7px;
+    margin-left: 180px; }
