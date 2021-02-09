@@ -16,6 +16,7 @@ h1{
 	color:#9999B4;
 	text-shadow: 1px  #999;
 	text-align: center;
+	margin: 3.5rem;
 
 
 }
@@ -46,7 +47,7 @@ nav{
 #menu ul li {
 	display: block;
 	float: left;
-	padding: 15px;
+	padding: 26px;
 	margin-left: 8%;
 
 }
@@ -96,7 +97,7 @@ footer{
 	
 	margin-top: 30px;
 	display:flex;
-	padding: 5px;
+	padding: 104px;
 	flex-wrap: wrap;
 }
 
@@ -177,7 +178,7 @@ display: inline-block;
 	width: 650px;
 	height:330px;
 	float: right; 
-	padding: 30px;
+	padding: 64px;
 	border: solid white;
 	margin: right 30px;
 }
@@ -242,7 +243,7 @@ display: inline-block;
 .fecha3 table{
 	border: 2px solid black;
 	height: 100%;
-	width: 610px;
+	width: 709px;
 
 }
 
@@ -256,13 +257,3 @@ display: inline-block;
 .col-6{
 text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
