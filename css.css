@@ -263,7 +263,10 @@ padding: 20px;
 
 
 @media (max-width: 576px){
-
+    
+#menu ul li {
+    margin-left: 10%;
+}
 
     #video{
     padding: 16px;
@@ -381,3 +384,33 @@ nav{
 }
 
 }
+
+@media (min-width: 1583px){
+    .foto {
+        max-width: 40%;
+        float: left;
+        margin-top: 46px;
+        padding: 20px;
+    }
+
+    .trip {
+        width: 650px;
+        height: 330px;
+        float: right;
+        padding: 104px;
+        border: solid white;
+        margin: right 30px;
+    }
+    .fama{
+        padding: 0px;
+    }
+    .fama p{
+        padding: 104px;
+    }
+    .fecha3 table {
+        width: 778px;
+    }
+}
+
+
+
