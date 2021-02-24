@@ -263,9 +263,15 @@ padding: 20px;
 
 
 @media (max-width: 576px){
-    
+    #menu ul li {
+    justify-content: space-between;
+    margin-left: 36%;
+    display: flex;
+    float: initial;
+    margin-top: 18px;
+}
 #menu ul li {
-    margin-left: 10%;
+    margin-left: 36%;
 }
 
     #video{
