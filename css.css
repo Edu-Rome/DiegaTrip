@@ -420,3 +420,42 @@ nav{
 
 
 
+@media (max-width: 991.98px){
+
+    .caja {
+        padding: 116px;
+}
+
+#video {
+    margin-top: 0px;
+}
+#menu ul li {
+    margin-left: 4%;
+}
+.foto {
+    max-width: 100%;
+    float: left;
+    margin-top: 21px;
+    padding: 20px;
+    padding: 0;
+}
+.trip {
+    width: 90%;
+    height: 248px;
+    float: right;
+    padding: 48px;
+}
+.fama p {
+    justify-content: center;
+    width: 99%;
+    height: 455px;
+    float: right;
+}
+
+.fecha3 table {
+    border: 2px solid black;
+    height: 99%;
+    width: 487px;
+}
+
+}
